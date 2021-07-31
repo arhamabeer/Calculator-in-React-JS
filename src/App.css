@@ -1,18 +1,43 @@
 body{
   max-width: 500px;
   margin: auto;
+  background-color: black;
+}
+.App-header{
+  color: royalblue;
+  text-align: center;
+
+}
+.App-header h1{
+  font-size: 50px;
+  text-decoration: underline;
 }
 .div-main{
   border: 3px solid navy;
   width: 100%;
+  background-color: #070428;
 }
 .div-inp{
   width: 98.5%;
+  height: 100px;
+}
+.h1-res{
+  position: relative;
+  bottom: 90px;
+  left: 40px;
+}
+.clr-btn{
+  width: 60%; margin-left: 100px;height: 35px; font-size: 22px; background-color: rgb(185, 8, 8) ;border: 1px solid red;
+}
+.clr-btn:hover{
+  background-color: red;
 }
 .inp{
   width: 90%;
   height: 50px;
   margin: 15px 0 15px 22px ;
+  border: 5px solid navy;
+  font-size: 25px;
 }
 .div-btn{
   display: flex;
@@ -27,4 +52,7 @@ body{
   height: 57px;
   margin: 5px 0px;
   font-size: 25px;
+}
+.div-btn button:hover{
+  background-color: rgb(185, 8, 8);
 }
